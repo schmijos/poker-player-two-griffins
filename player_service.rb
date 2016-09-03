@@ -5,7 +5,7 @@ require_relative 'player'
 set :port, 8090
 set :bind, '0.0.0.0'
 
-post "/" do
+post '/' do
   if params[:action] == 'bet_request'
     Player.new.bet_request(JSON.parse(params[:game_state])).to_s
   elsif params[:action] == 'showdown'
