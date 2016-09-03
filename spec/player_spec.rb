@@ -8,7 +8,7 @@ RSpec.describe Player do
 
       1000.times do
         result = player.bet_request(GameStateMock.new.for_bet_request)
-        expect(result).to eq(1)
+        expect(result).to eq(0)
       end
     end
   end

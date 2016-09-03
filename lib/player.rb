@@ -3,7 +3,7 @@ class Player
   VERSION = "Two Griffins: #{description[0..-2]}".freeze
 
   def bet_request(_game_state)
-    1
+    0
   end
 
   def showdown(game_state)
