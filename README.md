@@ -1,6 +1,5 @@
-poker-player-ruby
-=================
+# Two Griffins - Poker Player Ruby
 
-Ruby client skeleton for Lean Poker
+Ruby client skeleton Lean Poker
 
 For more information visit: http://leanpoker.org
