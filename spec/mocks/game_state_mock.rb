@@ -12,5 +12,4 @@ class GameStateMock
   def read_ruby_object_from_json_file(file)
     JSON.parse(File.read(file))
   end
-
 end
