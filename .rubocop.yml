@@ -1,4 +1,4 @@
-Rails:
+Rails/*:
   Enabled: true
 
 Metrics/LineLength:
