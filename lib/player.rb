@@ -1,4 +1,3 @@
-
 class Player
   VERSION = 'Default Ruby folding player'.freeze
 
