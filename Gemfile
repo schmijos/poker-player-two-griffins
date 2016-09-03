@@ -3,8 +3,6 @@ source 'https://rubygems.org'
 ruby File.read('.ruby-version').strip
 
 gem 'bundler'
-
-gem 'bundler'
 gem 'binding_of_caller'
 gem 'byebug'
 gem 'spring'
