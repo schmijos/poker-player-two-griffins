@@ -1,6 +1,6 @@
 class Player
-  description = %x(echo "`git symbolic-ref HEAD 2> /dev/null | cut -b 12-`-`git log --pretty=format:\"%h\" -1`")
-  VERSION = "Two <b>Griffins</b> #{Time.now} #{description}".freeze
+  description = `git log --pretty=format:\"%h\" -1`
+  VERSION = "Two Griffins #{Time.now} #{description} #{ENV}".freeze
 
   def bet_request(_game_state)
     0
