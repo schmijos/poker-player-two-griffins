@@ -3,7 +3,7 @@ class Player
   VERSION = "Two Griffins: #{description[0..-2]}"
 
   def bet_request(_game_state)
-    0
+    1
   end
 
   def showdown(game_state)
